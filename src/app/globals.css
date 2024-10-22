@@ -2,20 +2,43 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Inter 28pt', Helvetica, sans-serif;
+}
+
+@font-face {
+  font-family: 'Inter 28pt';
+  src: url('./fonts/Inter28pt-Bold.woff2') format('woff2'),
+      url('./fonts/Inter28pt-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter 28pt';
+  src: url('./fonts/Inter28pt-SemiBold.woff2') format('woff2'),
+      url('./fonts/Inter28pt-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter 28pt';
+  src: url('./fonts/Inter28pt-Medium.woff2') format('woff2'),
+      url('./fonts/Inter28pt-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter 28pt';
+  src: url('./fonts/Inter28pt-Regular.woff2') format('woff2'),
+      url('./fonts/Inter28pt-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
