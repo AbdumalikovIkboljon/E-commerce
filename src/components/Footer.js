@@ -6,7 +6,7 @@ import { footerLinks } from "@/constants";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-100">
+    <footer className="bg-white">
       <div className="max-w-[1116px] mx-auto px-3">
         <div className="flex flex-wrap justify-between gap-6 border-b border-slate-300 py-8 lg:py-16 ">
           {/* Logo and Social Links */}

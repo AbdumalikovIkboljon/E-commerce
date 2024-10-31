@@ -42,3 +42,25 @@ body {
   font-style: normal;
   font-display: swap;
 }
+
+
+@layer base {
+  h1 {
+    @apply text-[40px] font-bold leading-[60px] tracking-[-2.5%] text-black-900;
+  }
+  h2 {
+    @apply text-[32px] font-bold leading-[38px] text-black-900;
+  }
+  h3 {
+    @apply text-[24px] font-bold leading-[29px] text-black-900;
+  }
+  h4 {
+    @apply text-[18px] font-semibold leading-[22px] text-black-900;
+  }
+  h5 {
+    @apply text-base font-semibold leading-[20px] text-black-900;
+  }
+  h6 {
+    @apply text-sm font-medium leading-[18px] text-black-900;
+  }
+}

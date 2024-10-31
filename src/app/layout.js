@@ -1,7 +1,7 @@
 import Header from "@/components/Header";
 import "./globals.css";
 import Footer from "@/components/Footer";
-
+import Newsletter from "@/components/Newsletter";
 
 export const metadata = {
   title: "Create Next App",
@@ -16,6 +16,7 @@ export default function RootLayout({ children }) {
         <main className="flex-grow">
           {children}
         </main>
+        <Newsletter />
         <Footer />
       </body>
     </html>

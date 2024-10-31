@@ -16,6 +16,8 @@ module.exports = {
     },
     colors: {
       white: '#FFFFFF',
+      dark: '#000000',
+      transparent: 'transparent',
       primary: {
         100: '#F0F1FF',
         200: '#E3E5FF',
@@ -86,7 +88,17 @@ module.exports = {
         800: '#F6BB33',
         900: '#F3B40A',
       }
-    }
+    },
+    extend: {
+      fontSize: {
+        // 'xs': ['12px', { lineHeight: '16px' }],    // Extra small font size
+        'sm': ['14px', { lineHeight: '24.5px' }],    // Small font size
+        // 'base': ['16px', { lineHeight: '24px' }],  // Base font size
+        // 'lg': ['18px', { lineHeight: '28px' }],    // Large font size
+        // 'xl': ['20px', { lineHeight: '28px' }],
+      }
+    },
+
   },
   plugins: [],
 };
