@@ -21,7 +21,7 @@ const Footer = () => {
               />
             </Link>
             <p className="text-sm leading-6 mb-6 text-[#717171]">
-              DevCut is a YouTube channel for <br /> practical project-based learning.
+              DevCut is a YouTube channel for <span className="md:text-wrap medium:block">practical project-based learning.</span> 
             </p>
 
             <div className="flex items-center gap-6">
