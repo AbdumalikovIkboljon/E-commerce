@@ -15,11 +15,11 @@ export default function Home() {
           </Button>
         </div>
         <Image
-          src="/hero-bg.png"
+          src="/hero-bg.svg"
           width={344}
-          height={374}
+          height={382}
           alt="hero image"
-          className="w-[172px] h-[187px] sm:w-[258px] sm:h-[281px] medium:w-[344px] medium:h-[374px]"
+          className="w-[172px] h-[191px] sm:w-[258px] sm:h-[287px] medium:w-[344px] medium:h-[382px]"
         />
       </div>
     </div>
