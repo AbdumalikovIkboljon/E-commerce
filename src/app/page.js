@@ -4,6 +4,9 @@ import Image from "next/image";
 import Services from "@/components/Services";
 import BestSelling from "@/components/BestSelling";
 import { womensTops } from "../../public";
+import ProductTabs from "@/components/ProductTabs";
+
+
 export default function Home() {
   return (
     <section>
@@ -46,20 +49,20 @@ export default function Home() {
               <Icon name="arrowRight" size="w-6 h-6" color="white" />
             </Button>
           </div>
-        {/* Image positioned absolutely on the right side */}
-        <div className="absolute right-[40px] transform -translate-y-1/2 top-[31%] medium:top-[51%]">
-          <Image
-            src={womensTops} // Replace 'womensTops' with the actual image import or URL
-            width={225}
-            height={311}
-            alt="Women's top cloth"
-            className="w-[169px] h-[218px] medium:w-[225px] medium:h-[290px] md:object-contain"
-            priority
-          />
+          {/* Image positioned absolutely on the right side */}
+          <div className="absolute right-[40px] transform -translate-y-1/2 top-[31%] medium:top-[51%]">
+            <Image
+              src={womensTops}
+              width={225}
+              height={311}
+              alt="Women's top cloth"
+              className="w-[169px] h-[218px] medium:w-[225px] medium:h-[290px] md:object-contain"
+              priority
+            />
+          </div>
         </div>
-        </div>
-
       </div>
+      <ProductTabs />
     </section>
   );
 }
