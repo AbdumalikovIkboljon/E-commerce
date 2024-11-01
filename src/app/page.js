@@ -2,11 +2,12 @@ import Button from "@/components/Button";
 import Icon from "@/components/Icon";
 import Image from "next/image";
 import Services from "@/components/Services";
+import BestSelling from "@/components/BestSelling";
 export default function Home() {
   return (
     <section>
       <div className="bg-gray-100 mb-12">
-        <div className="max-w-[1116px] flex flex-col justify-center items-center gap-4 medium:flex-row medium:items-center medium:justify-between pt-[68px] mx-auto px-4">
+        <div className="max-w-[1116px] flex flex-col justify-center items-center gap-4 medium:flex-row medium:items-center medium:justify-between pt-[68px] mx-auto px-3">
           <div className="flex flex-col items-center medium:items-start medium:pb-[70px]">
             <h2 className="mb-3 capitalize">Fresh arrivals online</h2>
             <p className="text-sm mb-12">
@@ -27,6 +28,7 @@ export default function Home() {
         </div>
       </div>
       <Services />
+      <BestSelling />
     </section>
   );
 }

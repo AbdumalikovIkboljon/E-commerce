@@ -1,4 +1,5 @@
 import Icon from "@/components/Icon";
+import { classicMonochromeShirt, monochromaticWardrobeShirt, essentialNeutralsShirt, utraanetBlackShirt } from '../../public/index';
 
 
 export const services = [
@@ -22,6 +23,36 @@ export const services = [
   },
 ]
 
+export const bestSelling = [
+  {
+    id: 1,
+    image: classicMonochromeShirt,
+    name: 'Classic Monochrome Tees',
+    inStock: true,
+    price: 35.00,
+  },
+  {
+    id: 2,
+    image: monochromaticWardrobeShirt,
+    name: 'Monochromatic Wardrobe',
+    inStock: true,
+    price: 27.00,
+  },
+  {
+    id: 3,
+    image: essentialNeutralsShirt,
+    name: 'Essential Neutrals',
+    inStock: true,
+    price: 22.00,
+  },
+  {
+    id: 4,
+    image: utraanetBlackShirt,
+    name: 'UTRAANET Black',
+    inStock: true,
+    price: 43.00,
+  },
+]
 
 export const footerLinks = [
   { 
