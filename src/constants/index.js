@@ -1,3 +1,28 @@
+import Icon from "@/components/Icon";
+
+
+export const services = [
+  {
+    id: 1,
+    icon: <Icon name='delivery' color="transparent" currentColor='black' size="w-6 h-6" />,
+    title: "Free shipping",
+    description: "Upgrade your style today and get FREE shipping on all orders! Don't miss out.",
+  },
+  {
+    id: 2,
+    icon: <Icon name='starBadge' color="transparent" currentColor='black' size="w-6 h-6" />,
+    title: "Satisfaction Guarantee",
+    description: "Shop confidently with our Satisfaction Guarantee: Love it or get a refund.",
+  },
+  {
+    id: 3,
+    icon: <Icon name='shieldCheck' color="transparent" currentColor='black' size="w-6 h-6" />,
+    title: "Secure Payment",
+    description: "Your security is our priority. Your payments are secure with us.",
+  },
+]
+
+
 export const footerLinks = [
   { 
     id: 1,
